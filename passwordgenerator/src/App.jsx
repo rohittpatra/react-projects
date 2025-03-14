@@ -33,7 +33,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, passwordGenerator]);
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 p-4">
+    <div className=" flex items-center justify-center h-screen w-screen bg-gradient-to-r from-gray-900 to-gray-800 p-4">
       <div className="w-full max-w-lg bg-gray-700 shadow-xl rounded-2xl p-6 text-white">
         <h1 className='text-2xl font-bold text-center mb-4 text-orange-400'>Password Generator</h1>
         <div className="flex items-center bg-gray-800 rounded-lg overflow-hidden shadow-md mb-4">
